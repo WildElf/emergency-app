@@ -1,1 +1,2 @@
-# CS177 short project\n# emergency app
+# CS177 short project
+# emergency app
