@@ -1,268 +1,138 @@
 <working title>Emergency App
 Requirements & Priorities
 
-Market research note: we will solidify the name, once we’ve been able to get 
-some research for an available title that will also help engender trust.
+Market research note: we will solidify the name, once we’ve been able to get some research for an available title that will also help engender trust.
 
 Required Features
 1.Profile set up for personal information
-If the user has not used this app on this phone before, they will first get 
-prompted to set up a profile.
+If the user has not used this app on this phone before, they will first get prompted to set up a profile.
 Screen 1 - 
-They can choose to pull information from an existing profile (to start we will 
-target Facebook and Twitter and phone network provider accounts; Google+ and 
-LinkedIn if time allows) or create a new profile using an email address.
+They can choose to pull information from an existing profile (to start we will target Facebook and Twitter and phone network provider accounts; Google+ and LinkedIn if time allows) or create a new profile using an email address.
 
 Screen 2 - Warning and Acceptance
 Just click accept, right? No. This is not your standard EULA. 
 
 We need to tell the user two important things:
-1.	This is for emergency use only. If you want to joke around, get a chat 
-app instead. Misuse may result in law enforcement actions (see #1)
-2.	This account will be tied to your device. Falsified information will 
-only make it harder to help you, it will be easy to find you no matter what.
+1.	This is for emergency use only. If you want to joke around, get a chat app instead. Misuse may result in law enforcement actions (see #1)
+2.	This account will be tied to your device. Falsified information will only make it harder to help you, it will be easy to find you no matter what.
 
-Instead of the big, obvious green (accept) button, the bottom of the screen 
-will have a big grey button that says “Read the warnings and slide your finger 
-across them”
+Instead of the big, obvious green (accept) button, the bottom of the screen will have a big grey button that says “Read the warnings and slide your finger across them”
 
-The words will highlight as the user runs a finger across them. There will be a 
-possibly annoying level of accuracy required, so that it is difficult to 
-highlight every letter on a single pass. It will be hard to not look at the 
-warnings.
+The words will highlight as the user runs a finger across them. There will be a possibly annoying level of accuracy required, so that it is difficult to highlight every letter on a single pass. It will be hard to not look at the warnings.
 
-User testing note - we might try intentionally having some keywords resist 
-first-pass highlighting, and then test the effects on memorability.
+User testing note - we might try intentionally having some keywords resist first-pass highlighting, and then test the effects on memorability.
 
-Once the words are all highlighted, the button turns green and the button text 
-says “Accept Responsibility”
+Once the words are all highlighted, the button turns green and the button text says “Accept Responsibility”
 
 Screen 2 - new profile
-They will get a small number of fields to enter information, with some 
-pre-populated, such as the phone number, which will be pulled from the phone’s 
-ID.
-●	Name - with some basic format checking (family name & personal name; no 
-numbers, only dashes, apostrophes, and periods allowed for punctuation)
-○	If error: the user will be advised: “Enter your name as it is legally 
-recorded or said out-loud, to the best approximate pronunciation”
-●	Profile Picture - when empty it is a grey box with camera icon; when 
-pressed, the camera will launch to take a photo (basic facial recognition will 
-be used to attempt to confirm that a single face is present)
-○	If error: the user will be advised: “This is to help an emergency crew 
-identify you! They will not recognize you from your pets, in a crowd of people, 
-or from your favorite food”
-●	Age - since precise age is not necessary, but birthdates are common for 
-identification, we will get a birthdate and display an age range (e.g. early 
-20s, mid-50s) to all but emergency contacts and agencies
-○	If error: An error will result if the user is under 17. We will be 
-targeting adults for our initial users, and need to find a balance between 
-parental permission, child safety, and any local and national regulations. The 
-user will be told: “This app is not available for use by children under the age 
-of 17.
-●	Gender - a pull down list will be provided: Male, Female, Non-Binary, 
-Decline to State (plus a non-selectable default of “Select”)
-○	If error: The only error will result if no choice is made. The user 
-will be told: “You must make a selection”
-●	Home Zip Code - this will be used to a) use as a default if the app is 
-unable to get any course or precise location from GPS and/or networks, and b) 
-to guide emergency personnel, such as a local hospital, if necessary.
+They will get a small number of fields to enter information, with some pre-populated, such as the phone number, which will be pulled from the phone’s ID.
+●	Name - with some basic format checking (family name & personal name; no numbers, only dashes, apostrophes, and periods allowed for punctuation)
+○	If error: the user will be advised: “Enter your name as it is legally recorded or said out-loud, to the best approximate pronunciation”
+●	Profile Picture - when empty it is a grey box with camera icon; when pressed, the camera will launch to take a photo (basic facial recognition will be used to attempt to confirm that a single face is present)
+○	If error: the user will be advised: “This is to help an emergency crew identify you! They will not recognize you from your pets, in a crowd of people, or from your favorite food”
+●	Age - since precise age is not necessary, but birthdates are common for identification, we will get a birthdate and display an age range (e.g. early 20s, mid-50s) to all but emergency contacts and agencies
+○	If error: An error will result if the user is under 17. We will be targeting adults for our initial users, and need to find a balance between parental permission, child safety, and any local and national regulations. The user will be told: “This app is not available for use by children under the age of 17.
+●	Gender - a pull down list will be provided: Male, Female, Non-Binary, Decline to State (plus a non-selectable default of “Select”)
+○	If error: The only error will result if no choice is made. The user will be told: “You must make a selection”
+●	Home Zip Code - this will be used to a) use as a default if the app is unable to get any course or precise location from GPS and/or networks, and b) to guide emergency personnel, such as a local hospital, if necessary.
 
 All of this information will be required to proceed.
 
 Screen 2 - Existing
-Name and a profile picture, any birthday, gender, and location information will 
-be pulled from the linked network.
-Anything unable to be retried will be empty, and the user will be required to 
-enter them as if they were creating a custom account.
-If any pulled information fails our tests (such as a Facebook photo that is of 
-a couple) the data will be dropped.
+Name and a profile picture, any birthday, gender, and location information will be pulled from the linked network.
+Anything unable to be retried will be empty, and the user will be required to enter them as if they were creating a custom account.
+If any pulled information fails our tests (such as a Facebook photo that is of a couple) the data will be dropped.
 As with a new profile, all of this information is required to proceed.
 
 Screen 1 & 2 - Previous account
-If there is a previous account detected to this phone, the user will get this 
-screen as their first screen. They will be told:
-“If you already had <working title>Emergency App installed, please confirm your 
-birthdate:”
+If there is a previous account detected to this phone, the user will get this screen as their first screen. They will be told:
+“If you already had <working title>Emergency App installed, please confirm your birthdate:”
 
-If they know the birthdate of the previous owner, they’ve successfully hacked 
-the system. Their profile will be restored. 
+If they know the birthdate of the previous owner, they’ve successfully hacked the system. Their profile will be restored. 
 
-Tech note: we will try to use a device ID that can survive general use, but not 
-a factory reset and/or refurbishment. But to start, err on the side of 
-this-phone-is-a-part-of-me over just-a-step-in-the-sell-and-upgrade-ladder.
+Tech note: we will try to use a device ID that can survive general use, but not a factory reset and/or refurbishment. But to start, err on the side of this-phone-is-a-part-of-me over just-a-step-in-the-sell-and-upgrade-ladder.
 
-If the user fails to enter in the correct birthdate after 2 attempts, the app 
-will direct them to support saying: “To ensure the safety of our users, you 
-will need to contact support to either retrieve your existing profile or to 
-confirm that you are the new owner of this device.”
+If the user fails to enter in the correct birthdate after 2 attempts, the app will direct them to support saying: “To ensure the safety of our users, you will need to contact support to either retrieve your existing profile or to confirm that you are the new owner of this device.”
 
 Upon any other launches or reinstallations, they will get this message directly.
 
-Tech note: let’s make our database of devices separate from our general 
-information database, to help isolate server impacts, even though there will be 
-some required redundancy.
+Tech note: let’s make our database of devices separate from our general information database, to help isolate server impacts, even though there will be some required redundancy.
 
 2.Detailed emergency contact information 
-Tech note: this will eventually be customizable, but our initial roll-out plan 
-will have a lot of this information pre-provided. This means we need to plan 
-for the former while building the latter.
+Tech note: this will eventually be customizable, but our initial roll-out plan will have a lot of this information pre-provided. This means we need to plan for the former while building the latter.
 
-Non-Customizable options: Designed for deployment from an official source. 
-Using our companion administration controls, these fields can be set remotely. 
-This will help reduce the complexity of some of the most critical set-up, 
-allowing ready deployment to large at-risk populations, such as residents in 
-elder-care facilities, clients of crisis centers, and students at college 
-campuses without requiring every individual to look up and correctly enter a 
-bunch of unfamiliar phone numbers.
+Non-Customizable options: Designed for deployment from an official source. Using our companion administration controls, these fields can be set remotely. This will help reduce the complexity of some of the most critical set-up, allowing ready deployment to large at-risk populations, such as residents in elder-care facilities, clients of crisis centers, and students at college campuses without requiring every individual to look up and correctly enter a bunch of unfamiliar phone numbers.
 
-Fire department: The direct emergency line for the local fire department (where 
-they exist, such as a special cell-phone line). 911 will be used when the user 
-is not near home.
+Fire department: The direct emergency line for the local fire department (where they exist, such as a special cell-phone line). 911 will be used when the user is not near home.
 
-Police Department: The direct line to the local law enforcement’s emergency 
-line. This will be used when the user is within the home area. 911 will be 
-contacted otherwise.
+Police Department: The direct line to the local law enforcement’s emergency line. This will be used when the user is within the home area. 911 will be contacted otherwise.
 
-Medical emergency: This will be filled out only when there is local hospital or 
-EMT unit used by the organization, or according to a user’s individual needs. 
-In many general cases (such as students at college) 911 will be contacted.
+Medical emergency: This will be filled out only when there is local hospital or EMT unit used by the organization, or according to a user’s individual needs. In many general cases (such as students at college) 911 will be contacted.
 
-Security Contact: This will be the first responder. Often this will be on-site 
-security.
+Security Contact: This will be the first responder. Often this will be on-site security.
 
-Emergency Contact: the somewhat misleading name shares its name from the entry 
-that appears on almost every form that a person must fill out when joining an 
-organization. In the organizational structure, the information will be used 
-from the user’s forms to fill out this entry. There may be more than one entry 
-here.
+Emergency Contact: the somewhat misleading name shares its name from the entry that appears on almost every form that a person must fill out when joining an organization. In the organizational structure, the information will be used from the user’s forms to fill out this entry. There may be more than one entry here.
 
-These are the order of priority the phone will attempt to reach. Busy lines 
-will provoke a progression down the list. A failed connection will attempt 3 
-retries before continuing.
+These are the order of priority the phone will attempt to reach. Busy lines will provoke a progression down the list. A failed connection will attempt 3 retries before continuing.
 
-Tech note: where possible, we will leverage advances in smartphones to connect 
-to multiple lines, either through our proxy service, or by sending voice 
-recordings. Any phone calls will default to speaker-phone mode, allowing the 
-same audio to get transmitted by phone as is captured by the video record.
+Tech note: where possible, we will leverage advances in smartphones to connect to multiple lines, either through our proxy service, or by sending voice recordings. Any phone calls will default to speaker-phone mode, allowing the same audio to get transmitted by phone as is captured by the video record.
 
-3.Big SOS activation button (software, screen touch activation, easiest to make 
-secure, but app must be open)
+3.Big SOS activation button (software, screen touch activation, easiest to make secure, but app must be open)
 
-Once the app has been set up, launching it will result in a screen with a giant 
-SOS button. This button will activate the SOS signal: attempting to contact 
-emergency services, and beginning the video recording and transmissions.
+Once the app has been set up, launching it will result in a screen with a giant SOS button. This button will activate the SOS signal: attempting to contact emergency services, and beginning the video recording and transmissions.
 
-Upon pressing the button, there will be a countdown, to help avoid accidental 
-triggers. This countdown will continue in the background if the phone is locked 
-or the app is closed. We will use lock-screen displays and notification fields 
-to maximize the visibility and accessibility of both the countdown and app.
+Upon pressing the button, there will be a countdown, to help avoid accidental triggers. This countdown will continue in the background if the phone is locked or the app is closed. We will use lock-screen displays and notification fields to maximize the visibility and accessibility of both the countdown and app.
 
-Tech note: we can start at a 5 second countdown. This may be adjusted based on 
-user tests, or additionally, might be controlled by the admin controls on a 
-site-by-site basis.
+Tech note: we can start at a 5 second countdown. This may be adjusted based on user tests, or additionally, might be controlled by the admin controls on a site-by-site basis.
 
-Also on this screen will be a “Settings” button - small and upper left, which 
-can allow the user to update personal information, and (eventually) various 
-emergency contacts.
+Also on this screen will be a “Settings” button - small and upper left, which can allow the user to update personal information, and (eventually) various emergency contacts.
 
-Also on this screen will be a “Decline” button - this will close the app in 
-non-emergency states. 
+Also on this screen will be a “Decline” button - this will close the app in non-emergency states. 
 This will pulse during the countdown, and cancel the countdown. 
-This will glow during an active SOS, and if pressed (twice, once will get “Are 
-You Sure” text above the button, the second time will cancel the SOS). Pressing 
-this only once and then touching anywhere else on the screen is an indication 
-the user might not be looking at the screen, or is not in a calm enough place 
-to ensure an emergency is not actually occurring.
+This will glow during an active SOS, and if pressed (twice, once will get “Are You Sure” text above the button, the second time will cancel the SOS). Pressing this only once and then touching anywhere else on the screen is an indication the user might not be looking at the screen, or is not in a calm enough place to ensure an emergency is not actually occurring.
 
-4. Physical button and/or shaking phone to initialize the sos app instead of 
-opening phone, searching for the app and opening it and pressing the sos button.
-The user can initialize the sos button by pressing simultaneously on 3 buttons 
-together: the volume up button, volume down button and turn off screen. By 
-pressing on those three buttons the user activate the sos button like he just 
-press on it.
+4. Physical button and/or shaking phone to initialize the sos app instead of opening phone, searching for the app and opening it and pressing the sos button.
+The user can initialize the sos button by pressing simultaneously on 3 buttons together: the volume up button, volume down button and turn off screen. By pressing on those three buttons the user activate the sos button like he just press on it.
  
 5. Recording video:
-The recording videos will connect to the camera in the phone and activate it, 
-the videos will be 20 second each. The app will keep recording until the user 
-turns off the app.
-*The videos will be stored in a directory with the correct date in a storage 
-backup like the DropBox.
+The recording videos will connect to the camera in the phone and activate it, the videos will be 20 second each. The app will keep recording until the user turns off the app.
+*The videos will be stored in a directory with the correct date in a storage backup like the DropBox.
  
 6.Transmitting videos:
-The videos will be transmitted throw messaging to the other users or contact 
-people. The first video will be send to the other users and then they will have 
-the option to keep receiving more videos if there is any.
-* if the user does not have a camera the microphone will work the same but 
-instead of video it will transmit a voice.
+The videos will be transmitted throw messaging to the other users or contact people. The first video will be send to the other users and then they will have the option to keep receiving more videos if there is any.
+* if the user does not have a camera the microphone will work the same but instead of video it will transmit a voice.
  
 
 7.Backing up video off the phone. 
- It is obvious that emergency back up is different from the regular one. You 
-have no time for proper complete back up and connection could be unstable.  But 
-in case of emergency the user don’t need to do complete back up he or she need 
-to make a back up only of the event that happened. After establishment of the 
-connection and making back up of the event, backs up should be sending to some 
-storage space like iCloud, DropBox or user email. 
-Those back up information could be retrieve later follow for the proper 
-investigation what is happened
+ It is obvious that emergency back up is different from the regular one. You have no time for proper complete back up and connection could be unstable.  But in case of emergency the user don’t need to do complete back up he or she need to make a back up only of the event that happened. After establishment of the connection and making back up of the event, backs up should be sending to some storage space like iCloud, DropBox or user email. 
+Those back up information could be retrieve later follow for the proper investigation what is happened
 
 8.Producing a loud alarm sound
- The sound should be pretty loud in order that people pay attention. This sound 
-could be chosen from the library that phone has. The user needs to have an 
-ability to stop the sound in case if he or she thinks that the situation is no 
-more dangerous. It could be a small yellow button to stop sound.
-If user doesn’t stop, the alarm would be sound again and again until somebody 
-pays attention and turn it off.
+ The sound should be pretty loud in order that people pay attention. This sound could be chosen from the library that phone has. The user needs to have an ability to stop the sound in case if he or she thinks that the situation is no more dangerous. It could be a small yellow button to stop sound.
+If user doesn’t stop, the alarm would be sound again and again until somebody pays attention and turn it off.
  
 9.Location information captured and updated as device moves. 
- Getting location information and updating it is very important because the 
-user could change it pretty quickly. You could use for obtaining location 
-information service provided by Google Map.  It is important that Google map 
-show the last destination of the user with necessary accuracy.
-Accuracy of the location could be chosen programmatically. In case of emergency 
-a location should be chosen accurately enough but it should not affect the 
-speed of the application: trying to make too much comparison programmatically 
-could reduce the speed obtaining location information.
+ Getting location information and updating it is very important because the user could change it pretty quickly. You could use for obtaining location information service provided by Google Map.  It is important that Google map show the last destination of the user with necessary accuracy.
+Accuracy of the location could be chosen programmatically. In case of emergency a location should be chosen accurately enough but it should not affect the speed of the application: trying to make too much comparison programmatically could reduce the speed obtaining location information.
 
 
 10.Notify Police (“*where supported” feature.)
-Text message should be sent to 911. Text-to-911 is currently only available in 
-certain markets where 911 call centers, also known as Public Safety Answering 
-Points (PSAPs), have elected to accept emergency text messages from the public.
+Text message should be sent to 911. Text-to-911 is currently only available in certain markets where 911 call centers, also known as Public Safety Answering Points (PSAPs), have elected to accept emergency text messages from the public.
 
 11.Notify Friends and Family
-Predefined emergency message, location and short video should be sent to a 
-person or a group of pre-selected emergency contacts. 
-Family or your doctor, or a lawyer are the first people who we usually call in 
-emergency. The list of emergency contacts should be set up before you start 
-using the application. “I am in danger” message is set up by default, but could 
-be modified, too.
+Predefined emergency message, location and short video should be sent to a person or a group of pre-selected emergency contacts. 
+Family or your doctor, or a lawyer are the first people who we usually call in emergency. The list of emergency contacts should be set up before you start using the application. “I am in danger” message is set up by default, but could be modified, too.
 
 
 12.Notify social media 
- Using Facebook, Instagram or other popular social medias’ Oauth, when SOS 
-button has been pushed successfully, it posts the notification (location, 
-picture + others) on their page, so people can see it and take actions. In 
-order for this to happen, when a user signs in, the user can chooses whether 
-they want the app to access their social media apps or regular sign-up in case 
-he/she doesn’t want the feature.
+ Using Facebook, Instagram or other popular social medias’ Oauth, when SOS button has been pushed successfully, it posts the notification (location, picture + others) on their page, so people can see it and take actions. In order for this to happen, when a user signs in, the user can chooses whether they want the app to access their social media apps or regular sign-up in case he/she doesn’t want the feature.
 
 
 13.Notify people nearby
- -Every smartphone comes with app that accesses the user’s current location. It 
-would be great to have it turned on by default, so in case of emergency, the 
-user has fewer steps to take before reaching someone for help. We could also 
-use the functionality to notify people in their vicinity. Thoughts - will other 
-users have it notified to them whether they know the user in danger or not? 
-Perhaps users can have options to allow this or not. Once this is done, it 
-would be sent as a text to the people with the location and photo if available.
+ -Every smartphone comes with app that accesses the user’s current location. It would be great to have it turned on by default, so in case of emergency, the user has fewer steps to take before reaching someone for help. We could also use the functionality to notify people in their vicinity. Thoughts - will other users have it notified to them whether they know the user in danger or not? Perhaps users can have options to allow this or not. Once this is done, it would be sent as a text to the people with the location and photo if available.
 
-14.Profile tied to phone (uses phone hardware ID information instead of 
-software & logins)
-- Perhaps this can be done if the smartphone company allows the app the access 
-to the information. I am not 100% sure if this is something we can plan to 
-write specs for? I would think of something like the Find My iPhone feature 
-which allows users to track their phone.
+14.Profile tied to phone (uses phone hardware ID information instead of software & logins)
+- Perhaps this can be done if the smartphone company allows the app the access to the information. I am not 100% sure if this is something we can plan to write specs for? I would think of something like the Find My iPhone feature which allows users to track their phone.
 
 
 Nice-To-Have
@@ -271,23 +141,13 @@ Nice-To-Have
 3.Known medical conditions to help responders
 4.Communication to phones without the app
 5.Reporting on misuse
-We can use a separate button that a user can tap on. In case the messages have 
-been already sent to others, another message will be sent to the people that it 
-was false alarm, or if the warning messages haven’t been sent, if could cancel 
-the process. 
-6.Using any available networks (we can assume any available and authorized data 
-network will be used, but can an app access an available unsecured wifi, or 
-even a mobile network the user/phone is not subscribed to? Might be a political 
-problem as much as a technical one. e.g. Convince Verizon to allow the 
-emergency app to use their network if it’s the strongest/only one available. 
-Doing the same for secure WiFi channels seems impossible without some federal, 
-if not global, mandate)
+We can use a separate button that a user can tap on. In case the messages have been already sent to others, another message will be sent to the people that it was false alarm, or if the warning messages haven’t been sent, if could cancel the process. 
+6.Using any available networks (we can assume any available and authorized data network will be used, but can an app access an available unsecured wifi, or even a mobile network the user/phone is not subscribed to? Might be a political problem as much as a technical one. e.g. Convince Verizon to allow the emergency app to use their network if it’s the strongest/only one available. Doing the same for secure WiFi channels seems impossible without some federal, if not global, mandate)
 
 Later Update
 1.Take pictures 
 2.Remote trigger (for when someone steals your device, not when it’s misplaced)
 
 Spec Notes
-Marketing: Targeting at-risk groups to begin with; elders, crisis centers, 
-populations at risk (such as students in their first year in college)
+Marketing: Targeting at-risk groups to begin with; elders, crisis centers, populations at risk (such as students in their first year in college)
 
