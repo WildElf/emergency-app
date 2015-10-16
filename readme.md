@@ -3,3 +3,4 @@
 
 Short class project to write a functional spec
 
+Use "reader" script to read the document.

@@ -1,0 +1,2 @@
+#!/bin/bash
+fold -s functional-spec/emergency-app.txt | less
