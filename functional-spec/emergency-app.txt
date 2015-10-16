@@ -106,7 +106,8 @@ Also on this screen will be a “Decline” button - this will close the app in 
 This will pulse during the countdown, and cancel the countdown. 
 This will glow during an active SOS, and if pressed (twice, once will get “Are You Sure” text above the button, the second time will cancel the SOS). Pressing this only once and then touching anywhere else on the screen is an indication the user might not be looking at the screen, or is not in a calm enough place to ensure an emergency is not actually occurring.
 
-	**4. Physical button and/or shaking phone to initialize the sos app instead of opening phone, searching for the app and opening it and pressing the sos button.**
+	**4. Physical Activation**
+//Note: many emergency situations are not condusive to finding an app on your phone//
 The user can initialize the sos button by pressing simultaneously on 3 buttons together: the volume up button, volume down button and turn off screen. By pressing on those three buttons the user activate the sos button like he just press on it.
  
 	**5. Recording video**
@@ -115,9 +116,9 @@ The recording videos will connect to the camera in the phone and activate it, th
 //The videos will be stored in a directory with the correct date in a storage backup like the DropBox.//
  
 	**6.Transmitting videos**
-The videos will be transmitted throw messaging to the other users or contact people. The first video will be send to the other users and then they will have the option to keep receiving more videos if there is any.
-* if the user does not have a camera the microphone will work the same but instead of video it will transmit a voice.
- 
+The videos will be transmitted via messaging to the other users or contact people. The first video will be send to the other users and then they will have the option to keep receiving more videos if there is any.
+* if the user does not have a camera the microphone will work the same but instead of video it will transmit voice with the emergency-app logo or profile picture.
+
 
 	**7.Backing up video off the phone** 
  It is obvious that emergency back up is different from the regular one. You have no time for proper complete back up and connection could be unstable.  But in case of emergency the user don’t need to do complete back up he or she need to make a back up only of the event that happened. After establishment of the connection and making back up of the event, backs up should be sending to some storage space like iCloud, DropBox or user email. 
@@ -131,10 +132,10 @@ If user doesn’t stop, the alarm would be sound again and again until somebody 
  Getting location information and updating it is very important because the user could change it pretty quickly. You could use for obtaining location information service provided by Google Map.  It is important that Google map show the last destination of the user with necessary accuracy.
 Accuracy of the location could be chosen programmatically. In case of emergency a location should be chosen accurately enough but it should not affect the speed of the application: trying to make too much comparison programmatically could reduce the speed obtaining location information.
 
-
 	**10.Notify Police**
 	*(“*where supported” feature.)*
 Text message should be sent to 911. Text-to-911 is currently only available in certain markets where 911 call centers, also known as Public Safety Answering Points (PSAPs), have elected to accept emergency text messages from the public.
+
 
 	**11.Notify Friends and Family**
 Predefined emergency message, location and short video should be sent to a person or a group of pre-selected emergency contacts. 
@@ -146,7 +147,7 @@ Family or your doctor, or a lawyer are the first people who we usually call in e
 
 
 	**13.Notify people nearby**
- -Every smartphone comes with app that accesses the user’s current location. It would be great to have it turned on by default, so in case of emergency, the user has fewer steps to take before reaching someone for help. We could also use the functionality to notify people in their vicinity. Thoughts - will other users have it notified to them whether they know the user in danger or not? Perhaps users can have options to allow this or not. Once this is done, it would be sent as a text to the people with the location and photo if available.
+ -Every modern smartphone comes with app that accesses the user’s current location. It would be great to have it turned on by default, so in case of emergency, the user has fewer steps to take before reaching someone for help. We could also use the functionality to notify people in their vicinity. Thoughts - will other users have it notified to them whether they know the user in danger or not? Perhaps users can have options to allow this or not. Once this is done, it would be sent as a text to the people with the location and photo if available.
 
 	**14.Profile tied to phone**
 	(uses phone hardware ID information instead of software & logins)
