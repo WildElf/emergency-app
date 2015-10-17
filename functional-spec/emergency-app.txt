@@ -166,7 +166,8 @@ Upon activation of the SOS signal, the phone will go into lock mode. If the user
 	**4.Communication to phones without the app**
 
 	**5.Reporting on misuse**
-We can use a separate button that a user can tap on. In case the messages have been already sent to others, another message will be sent to the people that it was false alarm, or if the warning messages haven’t been sent, if could cancel the process. 
+We can use a separate button that a user can tap on. In case the messages have been already sent to others, another message will be sent to the people that it was false alarm, or if the warning messages haven’t been sent, it could cancel the process. 
+also on the profile of the person that misused the app will be a message informing other people of his behavior.
 
 	***Later Update***
 
