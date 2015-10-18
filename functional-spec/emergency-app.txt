@@ -15,6 +15,26 @@ He feels his legs going numb, and presses the power button rapidly as many times
 While Larry is resting, the phone is sending emergency texts to all the medical staff on-shift at the facility, 
 and within moments is getting the attention and care he needs.
 
+Barry is walking down the street, slightly drunk, around 2am. 
+A man in a fedora and trenchcoat leaps out of an alley with a lead-thrower and says, "Your money or your life!" 
+Realizing this is not the right time of year for the noir film festival, Barry knows his life is in danger. 
+He hands over his wallet and the mook says, "Smartphone too, or you'll be pushing up daisies." 
+Barry pulls out his phone and quietly presses the power button and volume buttons together, which triggers his Emergency App. 
+The phone is in the lug's possession when the countdown completes, but the phone is already locked when it starts contacting 911 
+with a pre-recorded message and location information. Within 20 minutes, the SFPD has tracked the phones' signal, 
+retrieved Barry's belongings, and thrown another Johnson brother into the slammer.
+
+Mary is sitting at home playing Candy Crush Saga while binge-watching Unbreakable Kimmy Schmidt when she feels sharp, crushing pains in her chest.
+She knows from 2 years ago, she is having her 2nd heart attack. 
+She regretfully halts her stellar progress on level 213, and launches Emergency App from her home screen.
+Pressing the big SOS button sends a text message to her son (who lives two blocks away), her doctor (who is vacationing in Las Vegas),
+and begins a call to 911. Knowing that the app is recording video, she shouts out while laying on the floor, "I'm having a heart attack!" 
+Within minutes, EMTs are on the scene, followed by her son, and her doctor just gets a bogey on the 12th hole before checking what his 
+phone was buzzing about while he was in the sand trap.
+
+//Market research note: we will solidify the name, once we’ve been able to get some research for an available 
+title that will also help engender trust.//
+
 	***Required Features***
 
 	**1.Profile set up for personal information**
@@ -249,4 +269,3 @@ We will look to network sensitive projects, such as Facebook and Tindr, to best 
 
 //Marketing: Targeting at-risk groups to begin with; elder homes & communities, crisis centers, populations at risk 
 (such as students in their first year in college)//
-
