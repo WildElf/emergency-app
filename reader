@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $(ls reader) ] ; then
+	fold -s $PWD/functional-spec/emergency-app.txt | less
+fi
+if [ $(ls ../reader) ] ; then
+	fold -s $PWD/../functional-spec/emergency-app.txt | less
+fi	

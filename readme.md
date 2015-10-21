@@ -1,3 +1,8 @@
-# Short Project for CS 177
+# CS177 short project
+# emergency app
 
-Functional Specification for the Emergency App
+Short class project to write a functional spec
+
+The functional spec should be identical for all group members.
+
+Use "reader" script to read the document.
